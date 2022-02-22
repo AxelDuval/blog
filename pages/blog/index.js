@@ -2,7 +2,6 @@ import Link from "next/link";
 import { v4 as uuidv4 } from "uuid";
 
 export default function index(props) {
-  console.log(props);
   return (
     <div className="container px-4 py-5">
       <h1 className="text-center">Bienvenue sur le blog</h1>

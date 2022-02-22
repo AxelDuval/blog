@@ -2,14 +2,20 @@ import React from "react";
 
 export default function user(props) {
   return (
-    <div className="container px-4 py-5">
+    <div className="container px-4 pt-3">
       <div className="row justify-content-center mt-5">
-        <div lassName="col-12 col-lg-6 m-2">
+        <div className="col-12 col-lg-6 m-2">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title text-center">{props.user.username}</h5>
-              <p className="text-center">{props.user.name}</p>
-              <p className="text-center">{props.user.email}</p>
+              <h4 className="card-title text-center">{props.user.username}</h4>
+              <h5 className="card-subtitle mb-2 text-muted text-center">
+                {props.user.name}
+              </h5>
+              <ul className="list-group text-center">
+                <li className="list-group-item">Email : {props.user.email}</li>
+                <li className="list-group-item">Website : {props.user.website}</li>
+                <li className="list-group-item">Phone : {props.user.phone}</li>
+              </ul>
             </div>
           </div>
         </div>

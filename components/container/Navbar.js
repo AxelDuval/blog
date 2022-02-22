@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-dark bg-primary">
+      <nav className="navbar navbar-dark bg-dark">
         <div className="container-fluid justify-content-center">
           <Link href="/">
             <a className="navbar-brand mx-4">Accueil</a>

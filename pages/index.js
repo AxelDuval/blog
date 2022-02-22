@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="container px-4 pt-5">
-      <h1>Bienvenue sur le blog</h1>
-      <span>Un blog créé dans le cadre de l'apprentissage de Next.js</span>
+      <h1>Accueil du blog</h1>
+      <span>Un blog Next.js</span>
       <div className="row mt-5">
         <div className="col-12 col-sm-6">
           <div className="card w-100 h-100" style={{minHeight: "200px"}}>

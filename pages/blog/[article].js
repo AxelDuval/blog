@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function article(props) {
-  console.log(props);
   return (
     <div className="container px-4 pt-5">
       <h1 className="text-center mb-4">{props.article.title}</h1>
